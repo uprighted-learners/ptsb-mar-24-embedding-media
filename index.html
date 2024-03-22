@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Embedding Media</title>
+</head>
+<body>
+    
+    <!-- Image from local file -->
+    <img src="images/boston.jpg" alt="Boston Library">
+
+    <!-- Image from online source (url) -->
+    <img 
+        src="https://images.unsplash.com/photo-1710779140606-3fefe7843ca7?q=80&w=1035&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+        alt="Table"
+    >
+
+    <!-- OpenStreetMap map embed -->
+    <iframe id="inlineFrameExample" title="Inline Frame Example" width="300" height="200"
+        src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik">
+    </iframe>
+
+    <!-- YouTube vide embed -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/PmtFtWVrxFE?si=HggphMd1myQfgfr-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <!-- Import local video file -->
+    <video controls>
+        <source src="videos/buildings.mp4" type="video/mp4">
+    </video>
+
+    <!-- Google Maps embed-->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d24782.211180297178!2d-77.09335943068847!3d39.066009599999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1711064024163!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</body>
+</html>
